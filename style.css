@@ -3,26 +3,29 @@ div {
   right: 0px;
   width: 100%;
   background-color: #fff;
+  font-family: arial, sans-serif;
+
 }
 
 #head {
   top: -10px;
   height: 50px;
-  border: 1px solid red;
 }
 
 #searchbox {
   border: 1px;
   border-radius: 2px;
   height: 44px;
+  width: 600px;
   padding: 0 10px;
-  margin-left: -110px;
+  margin-left: -125px;
   box-shadow: 0 2px 2px 0  rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 #textarea {
-  margin: 300px auto;
-  width: 50%;
+  margin: auto;
+  width: 55%;
+  top: 40%;
 }
 
 #voice {
@@ -30,7 +33,7 @@ div {
   margin: auto;
   width: 28px;
   top: 125px;
-  left: 370px;
+  left: 435px;
 }
 
 
@@ -57,12 +60,89 @@ form:hover {
   border: 1px;
   border-radius: 2px;
   padding: 10px 15px;
-  box-shadow: 0 2px 2px 0  rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   margin-top: 10px;
-
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #757575
 }
 
 form {
   width: 300px;
   height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer a {
+  color: #666;
+  font-size: 13px;
+  padding: 10px 0 10px 10px;
+}
+
+#footer li {
+  float:left;
+  margin: 0;
+  padding: 0;
+}
+
+ #footer ul {
+  list-style-type: none;
+}
+
+#footer li {
+  display: inline;
+  width: 70px;
+  text-align: center;
+}
+
+#right li:first-child {
+  width: 120px;
+}
+
+#cntr a {
+  padding: 10px 0 10px 0;
+}
+
+#left li:first-child {
+  width: 80px;
+}
+
+#right li {
+  position: static;
+  float: right;
+}
+
+#head ul {
+  list-style-type: none;
+}
+
+#head a {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: black;
+}
+
+#head li {
+  float: right;
+  display: inline;
+  padding: 10px;
+}
+
+#cubes {
+  margin-left: 5px;
+  line-height: 1px;
+}
+
+
+#cubes div {
+  position: relative;
+  display: inline-block;
+  background-color: #666;
+  width: 4px;
+  height: 4px;
+  right: 10px;
+  margin: 1px;
 }
