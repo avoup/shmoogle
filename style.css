@@ -1,0 +1,68 @@
+div {
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  background-color: #fff;
+}
+
+#head {
+  top: -10px;
+  height: 50px;
+  border: 1px solid red;
+}
+
+#searchbox {
+  border: 1px;
+  border-radius: 2px;
+  height: 44px;
+  padding: 0 10px;
+  margin-left: -110px;
+  box-shadow: 0 2px 2px 0  rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#textarea {
+  margin: 300px auto;
+  width: 50%;
+}
+
+#voice {
+  position: absolute;
+  margin: auto;
+  width: 28px;
+  top: 125px;
+  left: 370px;
+}
+
+
+/*form {
+  margin-left: 20%;
+  width: 50px;
+  border: 1px solid yellow;
+
+}
+
+form:hover {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}*/
+
+#footer {
+  border-top: 1px solid #e4e4e4;
+  bottom: 0px;
+  height: 40px;
+  background: #f2f2f2;
+  position: fixed;
+}
+
+#butts input {
+  border: 1px;
+  border-radius: 2px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 2px 0  rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  margin-top: 10px;
+
+}
+
+form {
+  width: 300px;
+  height: 50px;
+}
