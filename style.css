@@ -18,7 +18,6 @@ div {
   height: 44px;
   width: 600px;
   padding: 0 10px;
-  margin-left: -125px;
   box-shadow: 0 2px 2px 0  rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
@@ -28,12 +27,20 @@ div {
   top: 40%;
 }
 
+#search {
+  margin: auto;
+  border: 1px;
+  position: relative;
+  width: 600px;
+  margin-left: -150px;
+}
+
 #voice {
   position: absolute;
   margin: auto;
   width: 28px;
   top: 125px;
-  left: 435px;
+  left: 415px;
 }
 
 
@@ -44,9 +51,9 @@ div {
 
 }
 
-form:hover {
+input:hover {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-}*/
+} */
 
 #footer {
   border-top: 1px solid #e4e4e4;
@@ -54,17 +61,26 @@ form:hover {
   height: 40px;
   background: #f2f2f2;
   position: fixed;
+  margin-bottom: 5px;
 }
 
 #butts input {
-  border: 1px;
+  border: 1px solid #f2f2f2;
   border-radius: 2px;
   padding: 10px 15px;
   margin-top: 10px;
+  margin-right: 4px;
   font-family: arial, sans-serif;
   font-size: 13px;
   font-weight: bold;
-  color: #757575
+  color: #757575;
+}
+
+#butts input:hover {
+  border: 1px solid #c6c6c6;
+  background-color: #f8f8f8;
+  color: #222;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 form {
@@ -74,6 +90,10 @@ form {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #footer a {
@@ -90,12 +110,14 @@ a {
 
  #footer ul {
   list-style-type: none;
+
 }
 
 #footer li {
   display: inline;
   width: 70px;
   text-align: center;
+
 }
 
 #right li:first-child {
@@ -145,4 +167,39 @@ a {
   height: 4px;
   right: 10px;
   margin: 1px;
+}
+
+#bell {
+  background-color: #666;
+  border-radius: 50px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 45px;
+  top: 25px;
+}
+
+#bell img {
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+ #bell:hover {
+   background-color: black;
+ }
+
+ #prof img {
+   height: 20px;
+ }
+
+ #search:hover {
+   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#left a:first-child {
+  margin-left: -50px;
+}
+
+#left li:first-child {
+  padding-right: 10px;
 }
