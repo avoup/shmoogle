@@ -24,7 +24,7 @@ div {
 #textarea {
   margin: auto;
   width: 55%;
-  top: 40%;
+  top: 20%;
 }
 
 #search {
@@ -74,7 +74,7 @@ input:hover {
   font-size: 13px;
   font-weight: bold;
   color: #757575;
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
 }
 
 #butts input:hover {
